@@ -8,7 +8,7 @@ class TwoSum {
         }
     }
 
-    // this is 2 sum problem for the Sorter Array [1,2,3,4] and target = 5
+    // this is 2 sum problem for the Sorter Array [1,2,3,4] and target = 5 using 2 Pointer approach
     static int[] TwoSumFun(int arr[], int target) {
         int left = 0;
         int right = arr.length - 1;
