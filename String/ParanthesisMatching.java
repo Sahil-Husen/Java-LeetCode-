@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ParanthesisMatching {
     public static void main(String[] args) {
-        String str  = "{(])";
+        String str = "{(])";
         System.out.println(isMatched(str));
     }
 
@@ -16,7 +16,7 @@ public class ParanthesisMatching {
             if (ch == '(' || ch == '{' || ch == '{') {
                 stack.push(ch);
             } else {
-                if (stack.empty())  
+                if (stack.empty())
                     return false;
                 char top = stack.pop();
                 if ((ch == ')' && top != '(') ||
