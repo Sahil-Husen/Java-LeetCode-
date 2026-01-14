@@ -1,5 +1,4 @@
 
-package Array;
 public class PangramChecker {
 
     public static boolean checkIfPangram(String sentence) {
