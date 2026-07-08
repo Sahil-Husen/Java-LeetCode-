@@ -52,7 +52,7 @@ public class MaxSubArrSizeK {
     
     public static void main(String[] args) {
         int arr [] = {100,200,300,400};
-        int k = 2;
+        int k = 3;
         int res= maximumSubArrSizeK(arr, k);
         System.out.println(res);
     }
